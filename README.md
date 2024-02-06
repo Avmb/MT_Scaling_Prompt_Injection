@@ -2,7 +2,7 @@
 
 This repository contains the code and data to reproduce the experiments of the paper.
 
-Data based on [TruthfulQA](https://github.com/sylinrl/TruthfulQA) and distributed with the same licence (whatever it is).
+Data based on [TruthfulQA](https://github.com/sylinrl/TruthfulQA) and distributed under the Apache License 2.0.
 
 Code distributed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
