@@ -1,0 +1,28 @@
+[2023-07-13 16:35:06] COMMAND: main.py --model-name t5-small --log-file ./results/t5/thruthfullqa_en_fr.txt --dataset ./datasets/truthfullqa/en_fr.df --lang-pair en-fr
+[2023-07-13 16:35:06] Arguments: {'model_name': 't5-small', 'dataset': './datasets/truthfullqa/en_fr.df', 'log_file': './results/t5/thruthfullqa_en_fr.txt', 'few_shot': False, 'lang_pair': 'en-fr'}
+[2023-07-13 16:35:06] start experiment...
+[2023-07-13 16:35:06] language pair: English-French
+[2023-07-13 16:35:07] model parameters: 60506624
+[2023-07-13 16:39:13] bleu score: 51.34|language acc:0.9828641370869033|question mark acc:0.9424724602203183
+[2023-07-13 16:39:13] ====================
+[2023-07-13 11:56:22] COMMAND: main.py --model-name t5-base --log-file ./results/t5/thruthfullqa_en_fr.txt --dataset ./datasets/truthfullqa/en_fr.df --lang-pair en-fr
+[2023-07-13 11:56:22] Arguments: {'model_name': 't5-base', 'dataset': './datasets/truthfullqa/en_fr.df', 'log_file': './results/t5/thruthfullqa_en_fr.txt', 'few_shot': False, 'lang_pair': 'en-fr'}
+[2023-07-13 11:56:22] start experiment...
+[2023-07-13 11:56:22] language pair: English-French
+[2023-07-13 11:56:27] model parameters: 222903552
+[2023-07-13 12:06:01] bleu score: 53.39|language acc:0.9828641370869033|question mark acc:0.9363525091799265
+[2023-07-13 12:06:01] ====================
+
+[2023-07-13 21:18:00] COMMAND: main.py --model-name t5-large --log-file ./results/openai_models/thruthfullqa_en_fr.txt --dataset ./datasets/truthfullqa/en_fr.df --lang-pair en-fr
+[2023-07-13 21:18:00] Arguments: {'model_name': 't5-large', 'dataset': './datasets/truthfullqa/en_fr.df', 'log_file': './results/openai_models/thruthfullqa_en_fr.txt', 'few_shot': False, 'lang_pair': 'en-fr'}
+[2023-07-13 21:18:00] start experiment...
+[2023-07-13 21:18:00] language pair: English-French
+[2023-07-13 21:18:50] model parameters: 737668096
+bleu score: 51.01|language acc:0.0|question mark acc:0.9436964504283966
+[2023-07-13 21:46:42] ====================
+[2023-07-14 08:43:03] COMMAND: main.py --model-name t5-3b --log-file ./results/openai_models/thruthfullqa_en_fr.txt --dataset ./datasets/truthfullqa/en_fr.df --lang-pair en-fr
+[2023-07-14 08:43:03] Arguments: {'model_name': 't5-3b', 'dataset': './datasets/truthfullqa/en_fr.df', 'log_file': './results/openai_models/thruthfullqa_en_fr.txt', 'few_shot': False, 'lang_pair': 'en-fr'}
+[2023-07-14 08:43:03] start experiment...
+[2023-07-14 08:43:03] language pair: English-French
+[2023-07-14 08:43:44] model parameters: 2851598336
+bleu score: 52.41|language acc:0.0|question mark acc:0.9375764993880049

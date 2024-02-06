@@ -1,0 +1,21 @@
+[2023-10-17 09:51:09] COMMAND: main.py --model-name Llama-2-7b-chat --log-file ./results/Llama-2-chat-quant-8-bits/prefix/thruthfullqa_ru_en.txt --lang-pair ru-en --quantization 8-bits --hf-token-file ../hf_token --prefix
+[2023-10-17 09:51:09] Arguments: {'model_name': 'Llama-2-7b-chat', 'log_file': './results/Llama-2-chat-quant-8-bits/prefix/thruthfullqa_ru_en.txt', 'few_shot': False, 'lang_pair': 'ru-en', 'prefix': True, 'quantization': '8-bits', 'hf_token_file': '../hf_token'}
+[2023-10-17 09:51:09] start experiment...
+[2023-10-17 09:51:09] language pair: Russian-English
+[2023-10-17 09:51:23] model parameters: 6738415616
+[2023-10-17 10:25:51] bleu score: 37.33|question mark acc:0.897172236503856
+[2023-10-17 10:25:51] ====================
+[2023-10-17 12:50:52] COMMAND: main.py --model-name Llama-2-13b-chat --log-file ./results/Llama-2-chat-quant-8-bits/prefix/thruthfullqa_ru_en.txt --lang-pair ru-en --quantization 8-bits --hf-token-file ../hf_token --prefix
+[2023-10-17 12:50:52] Arguments: {'model_name': 'Llama-2-13b-chat', 'log_file': './results/Llama-2-chat-quant-8-bits/prefix/thruthfullqa_ru_en.txt', 'few_shot': False, 'lang_pair': 'ru-en', 'prefix': True, 'quantization': '8-bits', 'hf_token_file': '../hf_token'}
+[2023-10-17 12:50:52] start experiment...
+[2023-10-17 12:50:52] language pair: Russian-English
+[2023-10-17 12:51:14] model parameters: 13015864320
+[2023-10-17 13:27:11] bleu score: 36.28|question mark acc:0.8611825192802056
+[2023-10-17 13:27:11] ====================
+[2023-10-17 18:00:09] COMMAND: main.py --model-name Llama-2-70b-chat --log-file ./results/Llama-2-chat-quant-8-bits/prefix/thruthfullqa_ru_en.txt --lang-pair ru-en --quantization 8-bits --hf-token-file ../hf_token --prefix
+[2023-10-17 18:00:09] Arguments: {'model_name': 'Llama-2-70b-chat', 'log_file': './results/Llama-2-chat-quant-8-bits/prefix/thruthfullqa_ru_en.txt', 'few_shot': False, 'lang_pair': 'ru-en', 'prefix': True, 'quantization': '8-bits', 'hf_token_file': '../hf_token'}
+[2023-10-17 18:00:09] start experiment...
+[2023-10-17 18:00:09] language pair: Russian-English
+[2023-10-17 18:01:08] model parameters: 68976648192
+[2023-10-17 20:42:03] bleu score: 41.98|question mark acc:0.961439588688946
+[2023-10-17 20:42:03] ====================

@@ -1,0 +1,13 @@
+
+[2023-07-08 18:39:13] COMMAND: main.py --model-name text-davinci-001 --log-file ./results/log.txt --dataset datasets/truthfullqa/en_de.df
+[2023-07-08 18:39:13] Arguments: {'model_name': 'text-davinci-001', 'dataset': 'datasets/truthfullqa/en_de.df', 'log_file': './results/log.txt'}
+[2023-07-08 18:39:13] start experiment...
+[2023-07-08 18:39:13] language pair: English-German
+[2023-07-08 18:39:13] model parameters: 175B
+[2023-07-08 18:39:15] bleu score: 0.0
+[2023-07-08 18:39:53] COMMAND: main.py --model-name text-davinci-001 --log-file ./results/log.txt --dataset datasets/truthfullqa/en_de.df
+[2023-07-08 18:39:53] Arguments: {'model_name': 'text-davinci-001', 'dataset': 'datasets/truthfullqa/en_de.df', 'log_file': './results/log.txt'}
+[2023-07-08 18:39:53] start experiment...
+[2023-07-08 18:39:53] language pair: English-German
+[2023-07-08 18:39:53] model parameters: 175B
+[2023-07-08 18:39:55] bleu score: 0.0

@@ -1,0 +1,21 @@
+[2023-10-15 03:09:36] COMMAND: main.py --model-name Llama-2-7b-chat --log-file ./results/Llama-2-chat-quant-8-bits/prefix/thruthfullqa_fr_en.txt --lang-pair fr-en --quantization 8-bits --hf-token-file ../hf_token --prefix
+[2023-10-15 03:09:36] Arguments: {'model_name': 'Llama-2-7b-chat', 'log_file': './results/Llama-2-chat-quant-8-bits/prefix/thruthfullqa_fr_en.txt', 'few_shot': False, 'lang_pair': 'fr-en', 'prefix': True, 'quantization': '8-bits', 'hf_token_file': '../hf_token'}
+[2023-10-15 03:09:36] start experiment...
+[2023-10-15 03:09:36] language pair: French-English
+[2023-10-15 03:09:50] model parameters: 6738415616
+[2023-10-15 03:53:06] bleu score: 32.02|question mark acc:0.8226221079691517
+[2023-10-15 03:53:06] ====================
+[2023-10-15 06:07:21] COMMAND: main.py --model-name Llama-2-13b-chat --log-file ./results/Llama-2-chat-quant-8-bits/prefix/thruthfullqa_fr_en.txt --lang-pair fr-en --quantization 8-bits --hf-token-file ../hf_token --prefix
+[2023-10-15 06:07:21] Arguments: {'model_name': 'Llama-2-13b-chat', 'log_file': './results/Llama-2-chat-quant-8-bits/prefix/thruthfullqa_fr_en.txt', 'few_shot': False, 'lang_pair': 'fr-en', 'prefix': True, 'quantization': '8-bits', 'hf_token_file': '../hf_token'}
+[2023-10-15 06:07:21] start experiment...
+[2023-10-15 06:07:21] language pair: French-English
+[2023-10-15 06:07:40] model parameters: 13015864320
+[2023-10-15 06:48:34] bleu score: 32.07|question mark acc:0.7840616966580977
+[2023-10-15 06:48:34] ====================
+[2023-10-15 10:46:58] COMMAND: main.py --model-name Llama-2-70b-chat --log-file ./results/Llama-2-chat-quant-8-bits/prefix/thruthfullqa_fr_en.txt --lang-pair fr-en --quantization 8-bits --hf-token-file ../hf_token --prefix
+[2023-10-15 10:46:58] Arguments: {'model_name': 'Llama-2-70b-chat', 'log_file': './results/Llama-2-chat-quant-8-bits/prefix/thruthfullqa_fr_en.txt', 'few_shot': False, 'lang_pair': 'fr-en', 'prefix': True, 'quantization': '8-bits', 'hf_token_file': '../hf_token'}
+[2023-10-15 10:46:58] start experiment...
+[2023-10-15 10:46:58] language pair: French-English
+[2023-10-15 10:48:03] model parameters: 68976648192
+[2023-10-15 13:44:14] bleu score: 43.73|question mark acc:0.9550128534704371
+[2023-10-15 13:44:14] ====================

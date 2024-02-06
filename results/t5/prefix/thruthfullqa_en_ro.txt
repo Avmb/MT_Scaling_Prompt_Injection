@@ -1,0 +1,7 @@
+[2023-09-22 05:43:02] COMMAND: main.py --model-name t5-11b --log-file ./results/t5/prefix/thruthfullqa_en_ro.txt --lang-pair en-ro --prefix
+[2023-09-22 05:43:02] Arguments: {'model_name': 't5-11b', 'log_file': './results/t5/prefix/thruthfullqa_en_ro.txt', 'few_shot': False, 'lang_pair': 'en-ro', 'prefix': True}
+[2023-09-22 05:43:02] start experiment...
+[2023-09-22 05:43:02] language pair: English-Romanian
+[2023-09-22 05:44:56] model parameters: 11307321344
+[2023-09-22 05:53:13] bleu score: 30.11|question mark acc:0.9845758354755784
+[2023-09-22 05:53:13] ====================

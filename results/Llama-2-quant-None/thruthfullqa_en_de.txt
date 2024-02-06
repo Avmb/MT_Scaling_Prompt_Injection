@@ -1,0 +1,21 @@
+[2023-10-13 04:54:29] COMMAND: main.py --model-name Llama-2-7b --log-file ./results/Llama-2-quant-None/thruthfullqa_en_de.txt --lang-pair en-de --quantization None --hf-token-file ../hf_token
+[2023-10-13 04:54:29] Arguments: {'model_name': 'Llama-2-7b', 'log_file': './results/Llama-2-quant-None/thruthfullqa_en_de.txt', 'few_shot': False, 'lang_pair': 'en-de', 'prefix': False, 'quantization': 'None', 'hf_token_file': '../hf_token'}
+[2023-10-13 04:54:29] start experiment...
+[2023-10-13 04:54:29] language pair: English-German
+[2023-10-13 04:54:43] model parameters: 6738415616
+[2023-10-13 05:30:19] bleu score: 1.33|question mark acc:0.7352185089974294
+[2023-10-13 05:30:19] ====================
+[2023-10-13 07:34:52] COMMAND: main.py --model-name Llama-2-13b --log-file ./results/Llama-2-quant-None/thruthfullqa_en_de.txt --lang-pair en-de --quantization None --hf-token-file ../hf_token
+[2023-10-13 07:34:52] Arguments: {'model_name': 'Llama-2-13b', 'log_file': './results/Llama-2-quant-None/thruthfullqa_en_de.txt', 'few_shot': False, 'lang_pair': 'en-de', 'prefix': False, 'quantization': 'None', 'hf_token_file': '../hf_token'}
+[2023-10-13 07:34:52] start experiment...
+[2023-10-13 07:34:52] language pair: English-German
+[2023-10-13 07:35:12] model parameters: 13015864320
+[2023-10-13 08:24:53] bleu score: 1.72|question mark acc:0.62853470437018
+[2023-10-13 08:24:53] ====================
+[2023-10-13 14:04:51] COMMAND: main.py --model-name Llama-2-70b --log-file ./results/Llama-2-quant-None/thruthfullqa_en_de.txt --lang-pair en-de --quantization None --hf-token-file ../hf_token
+[2023-10-13 14:04:51] Arguments: {'model_name': 'Llama-2-70b', 'log_file': './results/Llama-2-quant-None/thruthfullqa_en_de.txt', 'few_shot': False, 'lang_pair': 'en-de', 'prefix': False, 'quantization': 'None', 'hf_token_file': '../hf_token'}
+[2023-10-13 14:04:51] start experiment...
+[2023-10-13 14:04:51] language pair: English-German
+[2023-10-13 14:05:50] model parameters: 68976648192
+[2023-10-13 16:43:40] bleu score: 2.42|question mark acc:0.5501285347043702
+[2023-10-13 16:43:40] ====================

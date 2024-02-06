@@ -1,0 +1,21 @@
+[2023-10-16 04:45:06] COMMAND: main.py --model-name Llama-2-7b --log-file ./results/Llama-2-quant-None/thruthfullqa_en_ro.txt --lang-pair en-ro --quantization None --hf-token-file ../hf_token
+[2023-10-16 04:45:06] Arguments: {'model_name': 'Llama-2-7b', 'log_file': './results/Llama-2-quant-None/thruthfullqa_en_ro.txt', 'few_shot': False, 'lang_pair': 'en-ro', 'prefix': False, 'quantization': 'None', 'hf_token_file': '../hf_token'}
+[2023-10-16 04:45:06] start experiment...
+[2023-10-16 04:45:06] language pair: English-Romanian
+[2023-10-16 04:45:19] model parameters: 6738415616
+[2023-10-16 05:20:21] bleu score: 0.47|question mark acc:0.8534704370179949
+[2023-10-16 05:20:21] ====================
+[2023-10-16 07:14:21] COMMAND: main.py --model-name Llama-2-13b --log-file ./results/Llama-2-quant-None/thruthfullqa_en_ro.txt --lang-pair en-ro --quantization None --hf-token-file ../hf_token
+[2023-10-16 07:14:21] Arguments: {'model_name': 'Llama-2-13b', 'log_file': './results/Llama-2-quant-None/thruthfullqa_en_ro.txt', 'few_shot': False, 'lang_pair': 'en-ro', 'prefix': False, 'quantization': 'None', 'hf_token_file': '../hf_token'}
+[2023-10-16 07:14:21] start experiment...
+[2023-10-16 07:14:21] language pair: English-Romanian
+[2023-10-16 07:14:38] model parameters: 13015864320
+[2023-10-16 08:02:45] bleu score: 1.66|question mark acc:0.5796915167095116
+[2023-10-16 08:02:45] ====================
+[2023-10-16 13:12:28] COMMAND: main.py --model-name Llama-2-70b --log-file ./results/Llama-2-quant-None/thruthfullqa_en_ro.txt --lang-pair en-ro --quantization None --hf-token-file ../hf_token
+[2023-10-16 13:12:28] Arguments: {'model_name': 'Llama-2-70b', 'log_file': './results/Llama-2-quant-None/thruthfullqa_en_ro.txt', 'few_shot': False, 'lang_pair': 'en-ro', 'prefix': False, 'quantization': 'None', 'hf_token_file': '../hf_token'}
+[2023-10-16 13:12:28] start experiment...
+[2023-10-16 13:12:28] language pair: English-Romanian
+[2023-10-16 13:13:34] model parameters: 68976648192
+[2023-10-16 15:36:08] bleu score: 0.98|question mark acc:0.6388174807197944
+[2023-10-16 15:36:08] ====================

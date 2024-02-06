@@ -1,0 +1,21 @@
+[2023-10-17 10:38:55] COMMAND: main.py --model-name Llama-2-7b-chat --log-file ./results/Llama-2-chat--few-shot-quant-8-bits/prefix/thruthfullqa_en_ru.txt --lang-pair en-ru --few-shot --quantization 8-bits --hf-token-file ../hf_token --prefix
+[2023-10-17 10:38:55] Arguments: {'model_name': 'Llama-2-7b-chat', 'log_file': './results/Llama-2-chat--few-shot-quant-8-bits/prefix/thruthfullqa_en_ru.txt', 'few_shot': True, 'lang_pair': 'en-ru', 'prefix': True, 'quantization': '8-bits', 'hf_token_file': '../hf_token'}
+[2023-10-17 10:38:55] start experiment...
+[2023-10-17 10:38:55] language pair: English-Russian
+[2023-10-17 10:39:10] model parameters: 6738415616
+[2023-10-17 11:20:38] bleu score: 4.64|question mark acc:0.17994858611825193
+[2023-10-17 11:20:38] ====================
+[2023-10-17 13:28:33] COMMAND: main.py --model-name Llama-2-13b-chat --log-file ./results/Llama-2-chat--few-shot-quant-8-bits/prefix/thruthfullqa_en_ru.txt --lang-pair en-ru --few-shot --quantization 8-bits --hf-token-file ../hf_token --prefix
+[2023-10-17 13:28:33] Arguments: {'model_name': 'Llama-2-13b-chat', 'log_file': './results/Llama-2-chat--few-shot-quant-8-bits/prefix/thruthfullqa_en_ru.txt', 'few_shot': True, 'lang_pair': 'en-ru', 'prefix': True, 'quantization': '8-bits', 'hf_token_file': '../hf_token'}
+[2023-10-17 13:28:33] start experiment...
+[2023-10-17 13:28:33] language pair: English-Russian
+[2023-10-17 13:28:53] model parameters: 13015864320
+[2023-10-17 14:36:20] bleu score: 2.83|question mark acc:0.043701799485861184
+[2023-10-17 14:36:20] ====================
+[2023-10-17 20:33:42] COMMAND: main.py --model-name Llama-2-70b-chat --log-file ./results/Llama-2-chat--few-shot-quant-8-bits/prefix/thruthfullqa_en_ru.txt --lang-pair en-ru --few-shot --quantization 8-bits --hf-token-file ../hf_token --prefix
+[2023-10-17 20:33:42] Arguments: {'model_name': 'Llama-2-70b-chat', 'log_file': './results/Llama-2-chat--few-shot-quant-8-bits/prefix/thruthfullqa_en_ru.txt', 'few_shot': True, 'lang_pair': 'en-ru', 'prefix': True, 'quantization': '8-bits', 'hf_token_file': '../hf_token'}
+[2023-10-17 20:33:42] start experiment...
+[2023-10-17 20:33:42] language pair: English-Russian
+[2023-10-17 20:34:43] model parameters: 68976648192
+[2023-10-17 22:57:32] bleu score: 4.48|question mark acc:0.27892030848329047
+[2023-10-17 22:57:32] ====================

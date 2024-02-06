@@ -1,0 +1,21 @@
+[2023-10-16 23:37:40] COMMAND: main.py --model-name Llama-2-7b --log-file ./results/Llama-2-quant-8-bits/prefix/thruthfullqa_en_ro.txt --lang-pair en-ro --quantization 8-bits --hf-token-file ../hf_token --prefix
+[2023-10-16 23:37:40] Arguments: {'model_name': 'Llama-2-7b', 'log_file': './results/Llama-2-quant-8-bits/prefix/thruthfullqa_en_ro.txt', 'few_shot': False, 'lang_pair': 'en-ro', 'prefix': True, 'quantization': '8-bits', 'hf_token_file': '../hf_token'}
+[2023-10-16 23:37:40] start experiment...
+[2023-10-16 23:37:40] language pair: English-Romanian
+[2023-10-16 23:37:54] model parameters: 6738415616
+[2023-10-17 01:46:13] bleu score: 0.36|question mark acc:0.7313624678663239
+[2023-10-17 01:46:13] ====================
+[2023-10-17 10:41:22] COMMAND: main.py --model-name Llama-2-13b --log-file ./results/Llama-2-quant-8-bits/prefix/thruthfullqa_en_ro.txt --lang-pair en-ro --quantization 8-bits --hf-token-file ../hf_token --prefix
+[2023-10-17 10:41:22] Arguments: {'model_name': 'Llama-2-13b', 'log_file': './results/Llama-2-quant-8-bits/prefix/thruthfullqa_en_ro.txt', 'few_shot': False, 'lang_pair': 'en-ro', 'prefix': True, 'quantization': '8-bits', 'hf_token_file': '../hf_token'}
+[2023-10-17 10:41:22] start experiment...
+[2023-10-17 10:41:22] language pair: English-Romanian
+[2023-10-17 10:41:40] model parameters: 13015864320
+[2023-10-17 13:49:25] bleu score: 0.76|question mark acc:0.6131105398457584
+[2023-10-17 13:49:25] ====================
+[2023-10-18 07:06:04] COMMAND: main.py --model-name Llama-2-70b --log-file ./results/Llama-2-quant-8-bits/prefix/thruthfullqa_en_ro.txt --lang-pair en-ro --quantization 8-bits --hf-token-file ../hf_token --prefix
+[2023-10-18 07:06:04] Arguments: {'model_name': 'Llama-2-70b', 'log_file': './results/Llama-2-quant-8-bits/prefix/thruthfullqa_en_ro.txt', 'few_shot': False, 'lang_pair': 'en-ro', 'prefix': True, 'quantization': '8-bits', 'hf_token_file': '../hf_token'}
+[2023-10-18 07:06:04] start experiment...
+[2023-10-18 07:06:04] language pair: English-Romanian
+[2023-10-18 07:07:03] model parameters: 68976648192
+[2023-10-18 13:05:25] bleu score: 2.51|question mark acc:0.4820051413881748
+[2023-10-18 13:05:25] ====================

@@ -1,0 +1,21 @@
+[2023-10-13 03:44:28] COMMAND: main.py --model-name Llama-2-7b --log-file ./results/Llama-2-quant-None/thruthfullqa_de_en.txt --lang-pair de-en --quantization None --hf-token-file ../hf_token
+[2023-10-13 03:44:28] Arguments: {'model_name': 'Llama-2-7b', 'log_file': './results/Llama-2-quant-None/thruthfullqa_de_en.txt', 'few_shot': False, 'lang_pair': 'de-en', 'prefix': False, 'quantization': 'None', 'hf_token_file': '../hf_token'}
+[2023-10-13 03:44:28] start experiment...
+[2023-10-13 03:44:28] language pair: German-English
+[2023-10-13 03:45:03] model parameters: 6738415616
+[2023-10-13 04:21:10] bleu score: 28.01|question mark acc:0.9395886889460154
+[2023-10-13 04:21:10] ====================
+[2023-10-13 06:03:54] COMMAND: main.py --model-name Llama-2-13b --log-file ./results/Llama-2-quant-None/thruthfullqa_de_en.txt --lang-pair de-en --quantization None --hf-token-file ../hf_token
+[2023-10-13 06:03:54] Arguments: {'model_name': 'Llama-2-13b', 'log_file': './results/Llama-2-quant-None/thruthfullqa_de_en.txt', 'few_shot': False, 'lang_pair': 'de-en', 'prefix': False, 'quantization': 'None', 'hf_token_file': '../hf_token'}
+[2023-10-13 06:03:54] start experiment...
+[2023-10-13 06:03:54] language pair: German-English
+[2023-10-13 06:04:44] model parameters: 13015864320
+[2023-10-13 06:52:44] bleu score: 33.22|question mark acc:0.9460154241645244
+[2023-10-13 06:52:44] ====================
+[2023-10-13 09:10:13] COMMAND: main.py --model-name Llama-2-70b --log-file ./results/Llama-2-quant-None/thruthfullqa_de_en.txt --lang-pair de-en --quantization None --hf-token-file ../hf_token
+[2023-10-13 09:10:13] Arguments: {'model_name': 'Llama-2-70b', 'log_file': './results/Llama-2-quant-None/thruthfullqa_de_en.txt', 'few_shot': False, 'lang_pair': 'de-en', 'prefix': False, 'quantization': 'None', 'hf_token_file': '../hf_token'}
+[2023-10-13 09:10:13] start experiment...
+[2023-10-13 09:10:13] language pair: German-English
+[2023-10-13 09:13:53] model parameters: 68976648192
+[2023-10-13 11:48:17] bleu score: 18.70|question mark acc:0.6568123393316195
+[2023-10-13 11:48:17] ====================

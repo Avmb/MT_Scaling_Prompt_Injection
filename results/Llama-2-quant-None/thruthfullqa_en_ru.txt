@@ -1,0 +1,21 @@
+[2023-10-16 22:38:36] COMMAND: main.py --model-name Llama-2-7b --log-file ./results/Llama-2-quant-None/thruthfullqa_en_ru.txt --lang-pair en-ru --quantization None --hf-token-file ../hf_token
+[2023-10-16 22:38:36] Arguments: {'model_name': 'Llama-2-7b', 'log_file': './results/Llama-2-quant-None/thruthfullqa_en_ru.txt', 'few_shot': False, 'lang_pair': 'en-ru', 'prefix': False, 'quantization': 'None', 'hf_token_file': '../hf_token'}
+[2023-10-16 22:38:36] start experiment...
+[2023-10-16 22:38:36] language pair: English-Russian
+[2023-10-16 22:38:49] model parameters: 6738415616
+[2023-10-16 23:14:58] bleu score: 0.00|question mark acc:0.7827763496143959
+[2023-10-16 23:14:58] ====================
+[2023-10-17 01:15:21] COMMAND: main.py --model-name Llama-2-13b --log-file ./results/Llama-2-quant-None/thruthfullqa_en_ru.txt --lang-pair en-ru --quantization None --hf-token-file ../hf_token
+[2023-10-17 01:15:21] Arguments: {'model_name': 'Llama-2-13b', 'log_file': './results/Llama-2-quant-None/thruthfullqa_en_ru.txt', 'few_shot': False, 'lang_pair': 'en-ru', 'prefix': False, 'quantization': 'None', 'hf_token_file': '../hf_token'}
+[2023-10-17 01:15:21] start experiment...
+[2023-10-17 01:15:21] language pair: English-Russian
+[2023-10-17 01:15:38] model parameters: 13015864320
+[2023-10-17 02:05:20] bleu score: 0.62|question mark acc:0.5629820051413882
+[2023-10-17 02:05:20] ====================
+[2023-10-17 07:33:30] COMMAND: main.py --model-name Llama-2-70b --log-file ./results/Llama-2-quant-None/thruthfullqa_en_ru.txt --lang-pair en-ru --quantization None --hf-token-file ../hf_token
+[2023-10-17 07:33:30] Arguments: {'model_name': 'Llama-2-70b', 'log_file': './results/Llama-2-quant-None/thruthfullqa_en_ru.txt', 'few_shot': False, 'lang_pair': 'en-ru', 'prefix': False, 'quantization': 'None', 'hf_token_file': '../hf_token'}
+[2023-10-17 07:33:30] start experiment...
+[2023-10-17 07:33:30] language pair: English-Russian
+[2023-10-17 07:34:33] model parameters: 68976648192
+[2023-10-17 10:08:07] bleu score: 0.73|question mark acc:0.5976863753213367
+[2023-10-17 10:08:07] ====================

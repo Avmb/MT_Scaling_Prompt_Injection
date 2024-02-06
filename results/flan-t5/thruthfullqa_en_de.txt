@@ -1,0 +1,8 @@
+[2023-09-22 05:53:34] COMMAND: main.py --model-name flan-t5-xxl --log-file ./results/flan-t5/thruthfullqa_en_de.txt --lang-pair en-de
+[2023-09-22 05:53:34] Arguments: {'model_name': 'flan-t5-xxl', 'log_file': './results/flan-t5/thruthfullqa_en_de.txt', 'few_shot': False, 'lang_pair': 'en-de', 'prefix': False}
+[2023-09-22 05:53:34] start experiment...
+[2023-09-22 05:53:34] language pair: English-German
+[2023-09-22 05:55:28] We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+[2023-09-22 05:56:38] model parameters: 11135332352
+[2023-09-22 06:01:36] bleu score: 26.93|question mark acc:0.9922879177377892
+[2023-09-22 06:01:36] ====================

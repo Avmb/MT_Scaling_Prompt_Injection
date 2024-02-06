@@ -1,0 +1,70 @@
+[2023-07-19 18:10:08] COMMAND: main.py --model-name ada --log-file ./results/openai/thruthfullqa_de_en.txt --dataset ./datasets/truthfullqa/en_de.df --lang-pair de-en --few-shot
+[2023-07-19 18:10:08] Arguments: {'model_name': 'ada', 'dataset': './datasets/truthfullqa/en_de.df', 'log_file': './results/openai/thruthfullqa_de_en.txt', 'few_shot': True, 'lang_pair': 'de-en'}
+[2023-07-19 18:10:08] start experiment...
+[2023-07-19 18:10:08] language pair: German-English
+[2023-07-19 18:10:08] model parameters: 350M
+[2023-07-19 18:17:22] bleu score: 32.40|language acc:0.0|question mark acc:0.9400244798041616
+[2023-07-19 18:17:22] ====================
+[2023-07-19 18:19:34] COMMAND: main.py --model-name babbage --log-file ./results/openai/thruthfullqa_de_en.txt --dataset ./datasets/truthfullqa/en_de.df --lang-pair de-en --few-shot
+[2023-07-19 18:19:34] Arguments: {'model_name': 'babbage', 'dataset': './datasets/truthfullqa/en_de.df', 'log_file': './results/openai/thruthfullqa_de_en.txt', 'few_shot': True, 'lang_pair': 'de-en'}
+[2023-07-19 18:19:34] start experiment...
+[2023-07-19 18:19:34] language pair: German-English
+[2023-07-19 18:19:34] model parameters: 1.3B
+[2023-07-19 18:28:06] bleu score: 42.31|language acc:0.0|question mark acc:0.9400244798041616
+[2023-07-19 18:28:06] ====================
+[2023-07-19 18:28:08] COMMAND: main.py --model-name curie --log-file ./results/openai/thruthfullqa_de_en.txt --dataset ./datasets/truthfullqa/en_de.df --lang-pair de-en --few-shot
+[2023-07-19 18:28:08] Arguments: {'model_name': 'curie', 'dataset': './datasets/truthfullqa/en_de.df', 'log_file': './results/openai/thruthfullqa_de_en.txt', 'few_shot': True, 'lang_pair': 'de-en'}
+[2023-07-19 18:28:08] start experiment...
+[2023-07-19 18:28:08] language pair: German-English
+[2023-07-19 18:28:08] model parameters: 6.7B
+[2023-07-19 18:36:33] bleu score: 50.96|language acc:0.0|question mark acc:0.9424724602203183
+[2023-07-19 18:36:33] ====================
+[2023-07-19 18:36:35] COMMAND: main.py --model-name davinci --log-file ./results/openai/thruthfullqa_de_en.txt --dataset ./datasets/truthfullqa/en_de.df --lang-pair de-en --few-shot
+[2023-07-19 18:36:35] Arguments: {'model_name': 'davinci', 'dataset': './datasets/truthfullqa/en_de.df', 'log_file': './results/openai/thruthfullqa_de_en.txt', 'few_shot': True, 'lang_pair': 'de-en'}
+[2023-07-19 18:36:35] start experiment...
+[2023-07-19 18:36:35] language pair: German-English
+[2023-07-19 18:36:35] model parameters: 175B
+[2023-07-19 18:59:24] bleu score: 59.40|language acc:0.0|question mark acc:0.9339045287637698
+[2023-07-19 18:59:24] ====================
+[2023-07-19 23:00:45] COMMAND: main.py --model-name text-ada-001 --log-file ./results/openai/thruthfullqa_de_en.txt --dataset ./datasets/truthfullqa/en_de.df --lang-pair de-en
+[2023-07-19 23:00:45] Arguments: {'model_name': 'text-ada-001', 'dataset': './datasets/truthfullqa/en_de.df', 'log_file': './results/openai/thruthfullqa_de_en.txt', 'few_shot': False, 'lang_pair': 'de-en'}
+[2023-07-19 23:00:45] start experiment...
+[2023-07-19 23:00:45] language pair: German-English
+[2023-07-19 23:00:45] model parameters: 350M
+[2023-07-19 23:05:48] bleu score: 18.94|language acc:0.0|question mark acc:0.802937576499388
+[2023-07-19 23:05:48] ====================
+[2023-07-19 23:05:51] COMMAND: main.py --model-name text-babbage-001 --log-file ./results/openai/thruthfullqa_de_en.txt --dataset ./datasets/truthfullqa/en_de.df --lang-pair de-en
+[2023-07-19 23:05:51] Arguments: {'model_name': 'text-babbage-001', 'dataset': './datasets/truthfullqa/en_de.df', 'log_file': './results/openai/thruthfullqa_de_en.txt', 'few_shot': False, 'lang_pair': 'de-en'}
+[2023-07-19 23:05:51] start experiment...
+[2023-07-19 23:05:51] language pair: German-English
+[2023-07-19 23:05:51] model parameters: 1.3B
+[2023-07-19 23:10:52] bleu score: 34.99|language acc:0.0|question mark acc:0.8824969400244798
+[2023-07-19 23:10:52] ====================
+[2023-07-19 23:10:54] COMMAND: main.py --model-name text-curie-001 --log-file ./results/openai/thruthfullqa_de_en.txt --dataset ./datasets/truthfullqa/en_de.df --lang-pair de-en
+[2023-07-19 23:10:54] Arguments: {'model_name': 'text-curie-001', 'dataset': './datasets/truthfullqa/en_de.df', 'log_file': './results/openai/thruthfullqa_de_en.txt', 'few_shot': False, 'lang_pair': 'de-en'}
+[2023-07-19 23:10:54] start experiment...
+[2023-07-19 23:10:54] language pair: German-English
+[2023-07-19 23:10:54] model parameters: 6.7B
+[2023-07-19 23:16:34] bleu score: 47.73|language acc:0.0|question mark acc:0.8910648714810282
+[2023-07-19 23:16:34] ====================
+[2023-07-19 23:16:36] COMMAND: main.py --model-name text-davinci-001 --log-file ./results/openai/thruthfullqa_de_en.txt --dataset ./datasets/truthfullqa/en_de.df --lang-pair de-en
+[2023-07-19 23:16:36] Arguments: {'model_name': 'text-davinci-001', 'dataset': './datasets/truthfullqa/en_de.df', 'log_file': './results/openai/thruthfullqa_de_en.txt', 'few_shot': False, 'lang_pair': 'de-en'}
+[2023-07-19 23:16:36] start experiment...
+[2023-07-19 23:16:36] language pair: German-English
+[2023-07-19 23:16:36] model parameters: 175B
+[2023-07-19 23:23:37] bleu score: 56.07|language acc:0.0|question mark acc:0.9265605875152999
+[2023-07-19 23:23:37] ====================
+[2023-07-20 00:07:09] COMMAND: main.py --model-name text-davinci-002 --log-file ./results/openai/thruthfullqa_de_en.txt --dataset ./datasets/truthfullqa/en_de.df --lang-pair de-en
+[2023-07-20 00:07:09] Arguments: {'model_name': 'text-davinci-002', 'dataset': './datasets/truthfullqa/en_de.df', 'log_file': './results/openai/thruthfullqa_de_en.txt', 'few_shot': False, 'lang_pair': 'de-en'}
+[2023-07-20 00:07:09] start experiment...
+[2023-07-20 00:07:09] language pair: German-English
+[2023-07-20 00:07:09] model parameters: 175B
+[2023-07-20 00:14:34] bleu score: 59.44|language acc:0.0|question mark acc:0.9069767441860465
+[2023-07-20 00:14:34] ====================
+[2023-07-20 01:10:02] COMMAND: main.py --model-name text-davinci-003 --log-file ./results/openai/thruthfullqa_de_en.txt --dataset ./datasets/truthfullqa/en_de.df --lang-pair de-en
+[2023-07-20 01:10:02] Arguments: {'model_name': 'text-davinci-003', 'dataset': './datasets/truthfullqa/en_de.df', 'log_file': './results/openai/thruthfullqa_de_en.txt', 'few_shot': False, 'lang_pair': 'de-en'}
+[2023-07-20 01:10:02] start experiment...
+[2023-07-20 01:10:02] language pair: German-English
+[2023-07-20 01:10:02] model parameters: 175B
+[2023-07-20 01:11:52] bleu score: 64.86|language acc:0.0|question mark acc:0.9632802937576499
+

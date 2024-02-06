@@ -1,7 +1,9 @@
-# Scaling Behavior of Machine Translation with Large Language Models under Prompt Injection Attacks
+# Inverse Scaling in Machine Translation 
+This repostitory contains the codes for the MSc dissertation project: **Inverse Scaling in Machine Translation**
 
-This repository contains the code and data to reproduce the experiments of the paper.
-
-Data based on [TruthfulQA](https://github.com/sylinrl/TruthfulQA) and distributed with the same licence (whatever it is).
-
-Code distributed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+## Instructions 
+```run.sh```: This file is for running the experiments with shell script 
+```main.py```: contains codes of running the experiments 
+```models.py```: contains some classes of LLM translators 
+```utils.py```: other useful functionalities. 
+```gpu_run.sh```: run the experiments on slurm. 

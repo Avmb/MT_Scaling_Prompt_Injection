@@ -1,0 +1,21 @@
+[2023-10-13 11:25:10] COMMAND: main.py --model-name Llama-2-7b-chat --log-file ./results/Llama-2-chat-quant-None/thruthfullqa_en_de.txt --lang-pair en-de --quantization None --hf-token-file ../hf_token
+[2023-10-13 11:25:10] Arguments: {'model_name': 'Llama-2-7b-chat', 'log_file': './results/Llama-2-chat-quant-None/thruthfullqa_en_de.txt', 'few_shot': False, 'lang_pair': 'en-de', 'prefix': False, 'quantization': 'None', 'hf_token_file': '../hf_token'}
+[2023-10-13 11:25:10] start experiment...
+[2023-10-13 11:25:10] language pair: English-German
+[2023-10-13 11:25:23] model parameters: 6738415616
+[2023-10-13 11:39:59] bleu score: 16.12|question mark acc:0.4755784061696658
+[2023-10-13 11:39:59] ====================
+[2023-10-13 12:15:44] COMMAND: main.py --model-name Llama-2-13b-chat --log-file ./results/Llama-2-chat-quant-None/thruthfullqa_en_de.txt --lang-pair en-de --quantization None --hf-token-file ../hf_token
+[2023-10-13 12:15:44] Arguments: {'model_name': 'Llama-2-13b-chat', 'log_file': './results/Llama-2-chat-quant-None/thruthfullqa_en_de.txt', 'few_shot': False, 'lang_pair': 'en-de', 'prefix': False, 'quantization': 'None', 'hf_token_file': '../hf_token'}
+[2023-10-13 12:15:44] start experiment...
+[2023-10-13 12:15:44] language pair: English-German
+[2023-10-13 12:16:01] model parameters: 13015864320
+[2023-10-13 12:30:05] bleu score: 24.73|question mark acc:0.8650385604113111
+[2023-10-13 12:30:05] ====================
+[2023-10-13 14:33:59] COMMAND: main.py --model-name Llama-2-70b-chat --log-file ./results/Llama-2-chat-quant-None/thruthfullqa_en_de.txt --lang-pair en-de --quantization None --hf-token-file ../hf_token
+[2023-10-13 14:33:59] Arguments: {'model_name': 'Llama-2-70b-chat', 'log_file': './results/Llama-2-chat-quant-None/thruthfullqa_en_de.txt', 'few_shot': False, 'lang_pair': 'en-de', 'prefix': False, 'quantization': 'None', 'hf_token_file': '../hf_token'}
+[2023-10-13 14:33:59] start experiment...
+[2023-10-13 14:33:59] language pair: English-German
+[2023-10-13 14:34:58] model parameters: 68976648192
+[2023-10-13 15:39:46] bleu score: 38.14|question mark acc:0.9550128534704371
+[2023-10-13 15:39:46] ====================

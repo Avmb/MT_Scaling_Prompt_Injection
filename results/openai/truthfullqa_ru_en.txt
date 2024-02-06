@@ -1,0 +1,81 @@
+[2023-07-20 22:48:07] COMMAND: main.py --model-name ada --log-file ./results/openai/thruthfullqa_ru_en.txt --lang-pair ru-en --few-shot
+[2023-07-20 22:48:07] Arguments: {'model_name': 'ada', 'log_file': './results/openai/thruthfullqa_ru_en.txt', 'few_shot': True, 'lang_pair': 'ru-en'}
+[2023-07-20 22:48:07] start experiment...
+[2023-07-20 22:48:07] language pair: Russian-English
+[2023-07-20 22:48:07] model parameters: 350M
+[2023-07-20 23:02:02] bleu score: 10.21|question mark acc:0.8611825192802056
+[2023-07-20 23:02:02] ====================
+[2023-07-20 23:02:05] COMMAND: main.py --model-name babbage --log-file ./results/openai/thruthfullqa_ru_en.txt --lang-pair ru-en --few-shot
+[2023-07-20 23:02:05] Arguments: {'model_name': 'babbage', 'log_file': './results/openai/thruthfullqa_ru_en.txt', 'few_shot': True, 'lang_pair': 'ru-en'}
+[2023-07-20 23:02:05] start experiment...
+[2023-07-20 23:02:05] language pair: Russian-English
+[2023-07-20 23:02:05] model parameters: 1.3B
+[2023-07-20 23:16:48] bleu score: 22.50|question mark acc:0.9357326478149101
+[2023-07-20 23:16:48] ====================
+[2023-07-20 23:16:50] COMMAND: main.py --model-name curie --log-file ./results/openai/thruthfullqa_ru_en.txt --lang-pair ru-en --few-shot
+[2023-07-20 23:16:50] Arguments: {'model_name': 'curie', 'log_file': './results/openai/thruthfullqa_ru_en.txt', 'few_shot': True, 'lang_pair': 'ru-en'}
+[2023-07-20 23:16:50] start experiment...
+[2023-07-20 23:16:50] language pair: Russian-English
+[2023-07-20 23:16:50] model parameters: 6.7B
+[2023-07-20 23:33:28] bleu score: 37.18|question mark acc:0.9730077120822622
+[2023-07-20 23:33:28] ====================
+[2023-07-20 23:33:31] COMMAND: main.py --model-name davinci --log-file ./results/openai/thruthfullqa_ru_en.txt --lang-pair ru-en --few-shot
+[2023-07-20 23:33:31] Arguments: {'model_name': 'davinci', 'log_file': './results/openai/thruthfullqa_ru_en.txt', 'few_shot': True, 'lang_pair': 'ru-en'}
+[2023-07-20 23:33:31] start experiment...
+[2023-07-20 23:33:31] language pair: Russian-English
+[2023-07-20 23:33:31] model parameters: 175B
+[2023-07-21 00:24:55] bleu score: 47.38|question mark acc:0.9627249357326478
+[2023-07-21 00:24:55] ====================
+[2023-07-21 00:24:58] COMMAND: main.py --model-name text-ada-001 --log-file ./results/openai/thruthfullqa_ru_en.txt --lang-pair ru-en
+[2023-07-21 00:24:58] Arguments: {'model_name': 'text-ada-001', 'log_file': './results/openai/thruthfullqa_ru_en.txt', 'few_shot': False, 'lang_pair': 'ru-en'}
+[2023-07-21 00:24:58] start experiment...
+[2023-07-21 00:24:58] language pair: Russian-English
+[2023-07-21 00:24:58] model parameters: 350M
+[2023-07-21 00:29:58] bleu score: 6.83|question mark acc:0.8059125964010283
+[2023-07-21 00:29:58] ====================
+[2023-07-21 00:30:01] COMMAND: main.py --model-name text-babbage-001 --log-file ./results/openai/thruthfullqa_ru_en.txt --lang-pair ru-en
+[2023-07-21 00:30:01] Arguments: {'model_name': 'text-babbage-001', 'log_file': './results/openai/thruthfullqa_ru_en.txt', 'few_shot': False, 'lang_pair': 'ru-en'}
+[2023-07-21 00:30:01] start experiment...
+[2023-07-21 00:30:01] language pair: Russian-English
+[2023-07-21 00:30:01] model parameters: 1.3B
+[2023-07-21 00:34:41] bleu score: 17.63|question mark acc:0.9203084832904884
+[2023-07-21 00:34:41] ====================
+[2023-07-21 00:34:44] COMMAND: main.py --model-name text-curie-001 --log-file ./results/openai/thruthfullqa_ru_en.txt --lang-pair ru-en
+[2023-07-21 00:34:44] Arguments: {'model_name': 'text-curie-001', 'log_file': './results/openai/thruthfullqa_ru_en.txt', 'few_shot': False, 'lang_pair': 'ru-en'}
+[2023-07-21 00:34:44] start experiment...
+[2023-07-21 00:34:44] language pair: Russian-English
+[2023-07-21 00:34:44] model parameters: 6.7B
+[2023-07-21 00:40:05] bleu score: 35.52|question mark acc:0.9640102827763496
+[2023-07-21 00:40:05] ====================
+[2023-07-21 00:40:08] COMMAND: main.py --model-name text-davinci-001 --log-file ./results/openai/thruthfullqa_ru_en.txt --lang-pair ru-en
+[2023-07-21 00:40:08] Arguments: {'model_name': 'text-davinci-001', 'log_file': './results/openai/thruthfullqa_ru_en.txt', 'few_shot': False, 'lang_pair': 'ru-en'}
+[2023-07-21 00:40:08] start experiment...
+[2023-07-21 00:40:08] language pair: Russian-English
+[2023-07-21 00:40:08] model parameters: 175B
+[2023-07-21 00:46:35] bleu score: 47.94|question mark acc:0.9717223650385605
+[2023-07-21 00:46:35] ====================
+[2023-07-21 00:40:08] COMMAND: main.py --model-name text-davinci-002 --log-file ./results/openai/thruthfullqa_ru_en.txt --lang-pair ru-en
+[2023-07-21 00:40:08] Arguments: {'model_name': 'text-davinci-001', 'log_file': './results/openai/thruthfullqa_ru_en.txt', 'few_shot': False, 'lang_pair': 'ru-en'}
+[2023-07-21 00:40:08] start experiment...
+[2023-07-21 00:40:08] language pair: Russian-English
+[2023-07-21 00:40:08] model parameters: 175B
+bleu score: 50.09|question mark acc:0.980719794344473
+[2023-07-21 00:46:35] ====================
+[2023-07-21 22:00:45] COMMAND: main.py --model-name text-davinci-003 --log-file ./results/openai/thruthfullqa_ru_en.txt --lang-pair ru-en
+[2023-07-21 22:00:45] Arguments: {'model_name': 'text-davinci-003', 'log_file': './results/openai/thruthfullqa_ru_en.txt', 'few_shot': False, 'lang_pair': 'ru-en'}
+[2023-07-21 22:00:45] start experiment...
+[2023-07-21 22:00:45] language pair: Russian-English
+[2023-07-21 22:00:45] model parameters: 175B
+[2023-07-21 22:00:47] error_code=None error_message='Request failed due to server shutdown' error_param=None error_type=server_error message='OpenAI API error received' stream_error=False
+[2023-07-21 22:19:35] COMMAND: main.py --model-name text-davinci-003 --log-file ./results/openai/thruthfullqa_ru_en.txt --lang-pair ru-en
+[2023-07-21 22:19:35] Arguments: {'model_name': 'text-davinci-003', 'log_file': './results/openai/thruthfullqa_ru_en.txt', 'few_shot': False, 'lang_pair': 'ru-en'}
+[2023-07-21 22:19:35] start experiment...
+[2023-07-21 22:19:35] language pair: Russian-English
+[2023-07-21 22:19:35] model parameters: 175B
+bleu score: 14.60|question mark acc:0.9858793324775353
+[2023-07-21 22:33:41] ====================
+[2023-07-23 00:38:45] COMMAND: main.py --model-name text-davinci-003 --log-file ./results/openai/thruthfullqa_ru_en.txt --lang-pair ru-en
+[2023-07-23 00:38:45] Arguments: {'model_name': 'text-davinci-003', 'log_file': './results/openai/thruthfullqa_ru_en.txt', 'few_shot': False, 'lang_pair': 'ru-en'}
+[2023-07-23 00:38:45] start experiment...
+[2023-07-23 00:38:45] language pair: Russian-English
+[2023-07-23 00:38:45] model parameters: 175B

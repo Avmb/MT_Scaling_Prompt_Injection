@@ -1,0 +1,71 @@
+[2023-08-01 22:40:42] COMMAND: main.py --model-name ada --log-file ./results/openai/prefix/thruthfullqa_de_ru.txt --lang-pair de-ru --few-shot --prefix
+[2023-08-01 22:40:42] Arguments: {'model_name': 'ada', 'log_file': './results/openai/prefix/thruthfullqa_de_ru.txt', 'few_shot': True, 'lang_pair': 'de-ru', 'prefix': True}
+[2023-08-01 22:40:42] start experiment...
+[2023-08-01 22:40:42] language pair: German-Russian
+[2023-08-01 22:40:42] model parameters: 350M
+[2023-08-01 22:54:29] bleu score: 0.00|question mark acc:0.10025706940874037
+[2023-08-01 22:54:29] ====================
+[2023-08-01 22:54:32] COMMAND: main.py --model-name babbage --log-file ./results/openai/prefix/thruthfullqa_de_ru.txt --lang-pair de-ru --few-shot --prefix
+[2023-08-01 22:54:32] Arguments: {'model_name': 'babbage', 'log_file': './results/openai/prefix/thruthfullqa_de_ru.txt', 'few_shot': True, 'lang_pair': 'de-ru', 'prefix': True}
+[2023-08-01 22:54:32] start experiment...
+[2023-08-01 22:54:32] language pair: German-Russian
+[2023-08-01 22:54:32] model parameters: 1.3B
+[2023-08-01 23:15:04] bleu score: 0.61|question mark acc:0.2982005141388175
+[2023-08-01 23:15:04] ====================
+[2023-08-01 23:15:08] COMMAND: main.py --model-name curie --log-file ./results/openai/prefix/thruthfullqa_de_ru.txt --lang-pair de-ru --few-shot --prefix
+[2023-08-01 23:15:08] Arguments: {'model_name': 'curie', 'log_file': './results/openai/prefix/thruthfullqa_de_ru.txt', 'few_shot': True, 'lang_pair': 'de-ru', 'prefix': True}
+[2023-08-01 23:15:08] start experiment...
+[2023-08-01 23:15:08] language pair: German-Russian
+[2023-08-01 23:15:08] model parameters: 6.7B
+[2023-08-01 23:54:01] bleu score: 3.50|question mark acc:0.6452442159383034
+[2023-08-01 23:54:01] ====================
+[2023-08-01 23:54:04] COMMAND: main.py --model-name davinci --log-file ./results/openai/prefix/thruthfullqa_de_ru.txt --lang-pair de-ru --few-shot --prefix
+[2023-08-01 23:54:04] Arguments: {'model_name': 'davinci', 'log_file': './results/openai/prefix/thruthfullqa_de_ru.txt', 'few_shot': True, 'lang_pair': 'de-ru', 'prefix': True}
+[2023-08-01 23:54:04] start experiment...
+[2023-08-01 23:54:04] language pair: German-Russian
+[2023-08-01 23:54:04] model parameters: 175B
+[2023-08-02 01:05:34] bleu score: 10.13|question mark acc:0.6953727506426736
+[2023-08-02 01:05:34] ====================
+[2023-08-02 01:05:38] COMMAND: main.py --model-name text-ada-001 --log-file ./results/openai/prefix/thruthfullqa_de_ru.txt --lang-pair de-ru --prefix
+[2023-08-02 01:05:38] Arguments: {'model_name': 'text-ada-001', 'log_file': './results/openai/prefix/thruthfullqa_de_ru.txt', 'few_shot': False, 'lang_pair': 'de-ru', 'prefix': True}
+[2023-08-02 01:05:38] start experiment...
+[2023-08-02 01:05:38] language pair: German-Russian
+[2023-08-02 01:05:38] model parameters: 350M
+[2023-08-02 01:11:46] bleu score: 0.00|question mark acc:0.4948586118251928
+[2023-08-02 01:11:46] ====================
+[2023-08-02 01:11:48] COMMAND: main.py --model-name text-babbage-001 --log-file ./results/openai/prefix/thruthfullqa_de_ru.txt --lang-pair de-ru --prefix
+[2023-08-02 01:11:48] Arguments: {'model_name': 'text-babbage-001', 'log_file': './results/openai/prefix/thruthfullqa_de_ru.txt', 'few_shot': False, 'lang_pair': 'de-ru', 'prefix': True}
+[2023-08-02 01:11:48] start experiment...
+[2023-08-02 01:11:48] language pair: German-Russian
+[2023-08-02 01:11:48] model parameters: 1.3B
+[2023-08-02 01:17:28] bleu score: 0.00|question mark acc:0.7442159383033419
+[2023-08-02 01:17:28] ====================
+[2023-08-02 01:17:30] COMMAND: main.py --model-name text-curie-001 --log-file ./results/openai/prefix/thruthfullqa_de_ru.txt --lang-pair de-ru --prefix
+[2023-08-02 01:17:30] Arguments: {'model_name': 'text-curie-001', 'log_file': './results/openai/prefix/thruthfullqa_de_ru.txt', 'few_shot': False, 'lang_pair': 'de-ru', 'prefix': True}
+[2023-08-02 01:17:30] start experiment...
+[2023-08-02 01:17:30] language pair: German-Russian
+[2023-08-02 01:17:30] model parameters: 6.7B
+[2023-08-02 01:27:14] bleu score: 0.67|question mark acc:0.7480719794344473
+[2023-08-02 01:27:14] ====================
+[2023-08-02 01:27:16] COMMAND: main.py --model-name text-davinci-001 --log-file ./results/openai/prefix/thruthfullqa_de_ru.txt --lang-pair de-ru --prefix
+[2023-08-02 01:27:16] Arguments: {'model_name': 'text-davinci-001', 'log_file': './results/openai/prefix/thruthfullqa_de_ru.txt', 'few_shot': False, 'lang_pair': 'de-ru', 'prefix': True}
+[2023-08-02 01:27:16] start experiment...
+[2023-08-02 01:27:16] language pair: German-Russian
+[2023-08-02 01:27:16] model parameters: 175B
+[2023-08-02 01:34:58] bleu score: 0.49|question mark acc:0.961439588688946
+[2023-08-02 01:34:58] ====================
+[2023-08-02 01:35:01] COMMAND: main.py --model-name text-davinci-002 --log-file ./results/openai/prefix/thruthfullqa_de_ru.txt --lang-pair de-ru --prefix
+[2023-08-02 01:35:01] Arguments: {'model_name': 'text-davinci-002', 'log_file': './results/openai/prefix/thruthfullqa_de_ru.txt', 'few_shot': False, 'lang_pair': 'de-ru', 'prefix': True}
+[2023-08-02 01:35:01] start experiment...
+[2023-08-02 01:35:01] language pair: German-Russian
+[2023-08-02 01:35:01] model parameters: 175B
+[2023-08-02 01:47:10] error_code=None error_message='Request failed due to server shutdown' error_param=None error_type=server_error message='OpenAI API error received' stream_error=False
+[2023-08-02 02:43:37] bleu score: 13.70|question mark acc:0.7287917737789203
+[2023-08-02 02:43:37] ====================
+[2023-08-02 02:43:41] COMMAND: main.py --model-name text-davinci-003 --log-file ./results/openai/prefix/thruthfullqa_de_ru.txt --lang-pair de-ru --prefix
+[2023-08-02 02:43:41] Arguments: {'model_name': 'text-davinci-003', 'log_file': './results/openai/prefix/thruthfullqa_de_ru.txt', 'few_shot': False, 'lang_pair': 'de-ru', 'prefix': True}
+[2023-08-02 02:43:41] start experiment...
+[2023-08-02 02:43:41] language pair: German-Russian
+[2023-08-02 02:43:41] model parameters: 175B
+[2023-08-02 03:20:03] bleu score: 16.31|question mark acc:0.8071979434447301
+[2023-08-02 03:20:03] ====================

@@ -1,0 +1,21 @@
+[2023-10-17 08:56:25] COMMAND: main.py --model-name Llama-2-7b-chat --log-file ./results/Llama-2-chat-quant-4-bits/thruthfullqa_en_ru.txt --lang-pair en-ru --quantization 4-bits --hf-token-file ../hf_token
+[2023-10-17 08:56:25] Arguments: {'model_name': 'Llama-2-7b-chat', 'log_file': './results/Llama-2-chat-quant-4-bits/thruthfullqa_en_ru.txt', 'few_shot': False, 'lang_pair': 'en-ru', 'prefix': False, 'quantization': '4-bits', 'hf_token_file': '../hf_token'}
+[2023-10-17 08:56:25] start experiment...
+[2023-10-17 08:56:25] language pair: English-Russian
+[2023-10-17 08:56:42] model parameters: 3500412928
+[2023-10-17 09:16:15] bleu score: 6.98|question mark acc:0.4023136246786632
+[2023-10-17 09:16:15] ====================
+[2023-10-17 10:02:15] COMMAND: main.py --model-name Llama-2-13b-chat --log-file ./results/Llama-2-chat-quant-4-bits/thruthfullqa_en_ru.txt --lang-pair en-ru --quantization 4-bits --hf-token-file ../hf_token
+[2023-10-17 10:02:15] Arguments: {'model_name': 'Llama-2-13b-chat', 'log_file': './results/Llama-2-chat-quant-4-bits/thruthfullqa_en_ru.txt', 'few_shot': False, 'lang_pair': 'en-ru', 'prefix': False, 'quantization': '4-bits', 'hf_token_file': '../hf_token'}
+[2023-10-17 10:02:15] start experiment...
+[2023-10-17 10:02:15] language pair: English-Russian
+[2023-10-17 10:02:35] model parameters: 6671979520
+[2023-10-17 10:26:39] bleu score: 12.56|question mark acc:0.7596401028277635
+[2023-10-17 10:26:39] ====================
+[2023-10-17 12:23:48] COMMAND: main.py --model-name Llama-2-70b-chat --log-file ./results/Llama-2-chat-quant-4-bits/thruthfullqa_en_ru.txt --lang-pair en-ru --quantization 4-bits --hf-token-file ../hf_token
+[2023-10-17 12:23:48] Arguments: {'model_name': 'Llama-2-70b-chat', 'log_file': './results/Llama-2-chat-quant-4-bits/thruthfullqa_en_ru.txt', 'few_shot': False, 'lang_pair': 'en-ru', 'prefix': False, 'quantization': '4-bits', 'hf_token_file': '../hf_token'}
+[2023-10-17 12:23:48] start experiment...
+[2023-10-17 12:23:48] language pair: English-Russian
+[2023-10-17 12:24:57] model parameters: 34751127552
+[2023-10-17 13:14:03] bleu score: 24.62|question mark acc:0.9138817480719794
+[2023-10-17 13:14:03] ====================

@@ -1,0 +1,28 @@
+[2023-07-27 18:09:38] COMMAND: main.py --model-name flan-t5-small --log-file ./results/flan-t5/prefix/thruthfullqa_en_fr.txt --lang-pair en-fr --prefix
+[2023-07-27 18:09:38] Arguments: {'model_name': 'flan-t5-small', 'log_file': './results/flan-t5/prefix/thruthfullqa_en_fr.txt', 'few_shot': False, 'lang_pair': 'en-fr', 'prefix': True}
+[2023-07-27 18:09:38] start experiment...
+[2023-07-27 18:09:38] language pair: English-French
+[2023-07-27 18:11:05] model parameters: 76961152
+[2023-07-27 18:15:45] bleu score: 5.58|question mark acc:0.8457583547557841
+[2023-07-27 18:15:45] ====================
+[2023-07-27 18:15:54] COMMAND: main.py --model-name flan-t5-base --log-file ./results/flan-t5/prefix/thruthfullqa_en_fr.txt --lang-pair en-fr --prefix
+[2023-07-27 18:15:54] Arguments: {'model_name': 'flan-t5-base', 'log_file': './results/flan-t5/prefix/thruthfullqa_en_fr.txt', 'few_shot': False, 'lang_pair': 'en-fr', 'prefix': True}
+[2023-07-27 18:15:54] start experiment...
+[2023-07-27 18:15:54] language pair: English-French
+[2023-07-27 18:17:23] model parameters: 247577856
+[2023-07-27 18:23:53] bleu score: 7.58|question mark acc:0.7596401028277635
+[2023-07-27 18:23:53] ====================
+[2023-07-27 18:24:04] COMMAND: main.py --model-name flan-t5-large --log-file ./results/flan-t5/prefix/thruthfullqa_en_fr.txt --lang-pair en-fr --prefix
+[2023-07-27 18:24:04] Arguments: {'model_name': 'flan-t5-large', 'log_file': './results/flan-t5/prefix/thruthfullqa_en_fr.txt', 'few_shot': False, 'lang_pair': 'en-fr', 'prefix': True}
+[2023-07-27 18:24:04] start experiment...
+[2023-07-27 18:24:04] language pair: English-French
+[2023-07-27 18:25:40] model parameters: 783150080
+[2023-07-27 18:36:14] bleu score: 15.51|question mark acc:0.8033419023136247
+[2023-07-27 18:36:14] ====================
+[2023-07-27 18:36:22] COMMAND: main.py --model-name flan-t5-xl --log-file ./results/flan-t5/prefix/thruthfullqa_en_fr.txt --lang-pair en-fr
+[2023-07-27 18:36:22] Arguments: {'model_name': 'flan-t5-xl', 'log_file': './results/flan-t5/prefix/thruthfullqa_en_fr.txt', 'few_shot': False, 'lang_pair': 'en-fr', 'prefix': False}
+[2023-07-27 18:36:22] start experiment...
+[2023-07-27 18:36:22] language pair: English-French
+[2023-07-27 18:38:25] model parameters: 2849757184
+[2023-07-28 21:54:52] bleu score: 10.98|question mark acc:0.8740359897172236
+[2023-07-27 18:46:50] ====================

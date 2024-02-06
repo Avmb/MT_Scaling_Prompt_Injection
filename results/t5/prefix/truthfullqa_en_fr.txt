@@ -1,0 +1,28 @@
+[2023-07-27 02:31:56] COMMAND: main.py --model-name t5-small --log-file ./results/t5/prefix/thruthfullqa_en_fr.txt --lang-pair en-fr --prefix
+[2023-07-27 02:31:56] Arguments: {'model_name': 't5-small', 'log_file': './results/t5/prefix/thruthfullqa_en_fr.txt', 'few_shot': False, 'lang_pair': 'en-fr', 'prefix': True}
+[2023-07-27 02:31:56] start experiment...
+[2023-07-27 02:31:56] language pair: English-French
+[2023-07-27 02:33:21] model parameters: 60506624
+[2023-07-27 02:35:59] bleu score: 26.79|question mark acc:0.9717223650385605
+[2023-07-27 02:35:59] ====================
+[2023-07-27 02:36:06] COMMAND: main.py --model-name t5-base --log-file ./results/t5/prefix/thruthfullqa_en_fr.txt --lang-pair en-fr --prefix
+[2023-07-27 02:36:06] Arguments: {'model_name': 't5-base', 'log_file': './results/t5/prefix/thruthfullqa_en_fr.txt', 'few_shot': False, 'lang_pair': 'en-fr', 'prefix': True}
+[2023-07-27 02:36:06] start experiment...
+[2023-07-27 02:36:06] language pair: English-French
+[2023-07-27 02:39:32] model parameters: 222903552
+[2023-07-27 02:44:20] bleu score: 28.43|question mark acc:0.980719794344473
+[2023-07-27 02:44:20] ====================
+[2023-07-27 02:44:26] COMMAND: main.py --model-name t5-large --log-file ./results/t5/prefix/thruthfullqa_en_fr.txt --lang-pair en-fr --prefix
+[2023-07-27 02:44:26] Arguments: {'model_name': 't5-large', 'log_file': './results/t5/prefix/thruthfullqa_en_fr.txt', 'few_shot': False, 'lang_pair': 'en-fr', 'prefix': True}
+[2023-07-27 02:44:26] start experiment...
+[2023-07-27 02:44:26] language pair: English-French
+[2023-07-27 02:47:59] model parameters: 737668096
+[2023-07-27 02:56:36] bleu score: 27.02|question mark acc:0.9794344473007712
+[2023-07-27 02:56:36] ====================
+[2023-07-27 02:56:49] COMMAND: main.py --model-name t5-3b --log-file ./results/t5/prefix/thruthfullqa_en_fr.txt --lang-pair en-fr --prefix
+[2023-07-27 02:56:49] Arguments: {'model_name': 't5-3b', 'log_file': './results/t5/prefix/thruthfullqa_en_fr.txt', 'few_shot': False, 'lang_pair': 'en-fr', 'prefix': True}
+[2023-07-27 02:56:49] start experiment...
+[2023-07-27 02:56:49] language pair: English-French
+[2023-07-27 03:00:52] model parameters: 2851598336
+[2023-07-27 03:09:50] bleu score: 27.14|question mark acc:0.9820051413881749
+[2023-07-27 03:09:50] ====================

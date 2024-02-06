@@ -1,0 +1,70 @@
+[2023-08-01 14:13:27] COMMAND: main.py --model-name ada --log-file ./results/openai/prefix/thruthfullqa_ru_en.txt --lang-pair ru-en --few-shot --prefix
+[2023-08-01 14:13:27] Arguments: {'model_name': 'ada', 'log_file': './results/openai/prefix/thruthfullqa_ru_en.txt', 'few_shot': True, 'lang_pair': 'ru-en', 'prefix': True}
+[2023-08-01 14:13:27] start experiment...
+[2023-08-01 14:13:27] language pair: Russian-English
+[2023-08-01 14:13:27] model parameters: 350M
+[2023-08-01 14:27:16] bleu score: 8.07|question mark acc:0.8123393316195373
+[2023-08-01 14:27:16] ====================
+[2023-08-01 14:27:18] COMMAND: main.py --model-name babbage --log-file ./results/openai/prefix/thruthfullqa_ru_en.txt --lang-pair ru-en --few-shot --prefix
+[2023-08-01 14:27:18] Arguments: {'model_name': 'babbage', 'log_file': './results/openai/prefix/thruthfullqa_ru_en.txt', 'few_shot': True, 'lang_pair': 'ru-en', 'prefix': True}
+[2023-08-01 14:27:18] start experiment...
+[2023-08-01 14:27:18] language pair: Russian-English
+[2023-08-01 14:27:18] model parameters: 1.3B
+[2023-08-01 14:43:39] bleu score: 13.79|question mark acc:0.8393316195372751
+[2023-08-01 14:43:39] ====================
+[2023-08-01 14:43:41] COMMAND: main.py --model-name curie --log-file ./results/openai/prefix/thruthfullqa_ru_en.txt --lang-pair ru-en --few-shot --prefix
+[2023-08-01 14:43:41] Arguments: {'model_name': 'curie', 'log_file': './results/openai/prefix/thruthfullqa_ru_en.txt', 'few_shot': True, 'lang_pair': 'ru-en', 'prefix': True}
+[2023-08-01 14:43:41] start experiment...
+[2023-08-01 14:43:41] language pair: Russian-English
+[2023-08-01 14:43:41] model parameters: 6.7B
+[2023-08-01 15:00:24] bleu score: 21.80|question mark acc:0.9820051413881749
+[2023-08-01 15:00:24] ====================
+[2023-08-01 15:00:26] COMMAND: main.py --model-name davinci --log-file ./results/openai/prefix/thruthfullqa_ru_en.txt --lang-pair ru-en --few-shot --prefix
+[2023-08-01 15:00:26] Arguments: {'model_name': 'davinci', 'log_file': './results/openai/prefix/thruthfullqa_ru_en.txt', 'few_shot': True, 'lang_pair': 'ru-en', 'prefix': True}
+[2023-08-01 15:00:26] start experiment...
+[2023-08-01 15:00:26] language pair: Russian-English
+[2023-08-01 15:00:26] model parameters: 175B
+[2023-08-01 15:53:27] bleu score: 24.45|question mark acc:0.9421593830334191
+[2023-08-01 15:53:27] ====================
+[2023-08-01 15:53:31] COMMAND: main.py --model-name text-ada-001 --log-file ./results/openai/prefix/thruthfullqa_ru_en.txt --lang-pair ru-en --prefix
+[2023-08-01 15:53:31] Arguments: {'model_name': 'text-ada-001', 'log_file': './results/openai/prefix/thruthfullqa_ru_en.txt', 'few_shot': False, 'lang_pair': 'ru-en', 'prefix': True}
+[2023-08-01 15:53:31] start experiment...
+[2023-08-01 15:53:31] language pair: Russian-English
+[2023-08-01 15:53:31] model parameters: 350M
+[2023-08-01 15:59:18] bleu score: 3.36|question mark acc:0.4910025706940874
+[2023-08-01 15:59:18] ====================
+[2023-08-01 15:59:20] COMMAND: main.py --model-name text-babbage-001 --log-file ./results/openai/prefix/thruthfullqa_ru_en.txt --lang-pair ru-en --prefix
+[2023-08-01 15:59:20] Arguments: {'model_name': 'text-babbage-001', 'log_file': './results/openai/prefix/thruthfullqa_ru_en.txt', 'few_shot': False, 'lang_pair': 'ru-en', 'prefix': True}
+[2023-08-01 15:59:20] start experiment...
+[2023-08-01 15:59:20] language pair: Russian-English
+[2023-08-01 15:59:20] model parameters: 1.3B
+[2023-08-01 16:04:13] bleu score: 12.80|question mark acc:0.9138817480719794
+[2023-08-01 16:04:13] ====================
+[2023-08-01 16:04:15] COMMAND: main.py --model-name text-curie-001 --log-file ./results/openai/prefix/thruthfullqa_ru_en.txt --lang-pair ru-en --prefix
+[2023-08-01 16:04:15] Arguments: {'model_name': 'text-curie-001', 'log_file': './results/openai/prefix/thruthfullqa_ru_en.txt', 'few_shot': False, 'lang_pair': 'ru-en', 'prefix': True}
+[2023-08-01 16:04:15] start experiment...
+[2023-08-01 16:04:15] language pair: Russian-English
+[2023-08-01 16:04:15] model parameters: 6.7B
+[2023-08-01 16:11:05] bleu score: 20.06|question mark acc:0.9691516709511568
+[2023-08-01 16:11:05] ====================
+[2023-08-01 16:11:07] COMMAND: main.py --model-name text-davinci-001 --log-file ./results/openai/prefix/thruthfullqa_ru_en.txt --lang-pair ru-en --prefix
+[2023-08-01 16:11:07] Arguments: {'model_name': 'text-davinci-001', 'log_file': './results/openai/prefix/thruthfullqa_ru_en.txt', 'few_shot': False, 'lang_pair': 'ru-en', 'prefix': True}
+[2023-08-01 16:11:07] start experiment...
+[2023-08-01 16:11:07] language pair: Russian-English
+[2023-08-01 16:11:07] model parameters: 175B
+[2023-08-01 16:18:03] bleu score: 37.42|question mark acc:0.9922879177377892
+[2023-08-01 16:18:03] ====================
+[2023-08-01 16:18:05] COMMAND: main.py --model-name text-davinci-002 --log-file ./results/openai/prefix/thruthfullqa_ru_en.txt --lang-pair ru-en --prefix
+[2023-08-01 16:18:05] Arguments: {'model_name': 'text-davinci-002', 'log_file': './results/openai/prefix/thruthfullqa_ru_en.txt', 'few_shot': False, 'lang_pair': 'ru-en', 'prefix': True}
+[2023-08-01 16:18:05] start experiment...
+[2023-08-01 16:18:05] language pair: Russian-English
+[2023-08-01 16:18:05] model parameters: 175B
+[2023-08-01 16:28:04] bleu score: 30.37|question mark acc:0.9730077120822622
+[2023-08-01 16:28:04] ====================
+[2023-08-01 16:28:06] COMMAND: main.py --model-name text-davinci-003 --log-file ./results/openai/prefix/thruthfullqa_ru_en.txt --lang-pair ru-en --prefix
+[2023-08-01 16:28:06] Arguments: {'model_name': 'text-davinci-003', 'log_file': './results/openai/prefix/thruthfullqa_ru_en.txt', 'few_shot': False, 'lang_pair': 'ru-en', 'prefix': True}
+[2023-08-01 16:28:06] start experiment...
+[2023-08-01 16:28:06] language pair: Russian-English
+[2023-08-01 16:28:06] model parameters: 175B
+[2023-08-01 16:42:03] bleu score: 30.61|question mark acc:0.9832904884318766
+[2023-08-01 16:42:03] ====================

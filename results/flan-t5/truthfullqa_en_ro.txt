@@ -1,0 +1,28 @@
+[2023-07-14 11:57:41] COMMAND: main.py --model-name flan-t5-small --log-file ./results/flan-t5/thruthfullqa_en_ro.txt --dataset ./datasets/truthfullqa/en_ro.df --lang-pair en-ro
+[2023-07-14 11:57:41] Arguments: {'model_name': 'flan-t5-small', 'dataset': './datasets/truthfullqa/en_ro.df', 'log_file': './results/flan-t5/thruthfullqa_en_ro.txt', 'few_shot': False, 'lang_pair': 'en-ro'}
+[2023-07-14 11:57:41] start experiment...
+[2023-07-14 11:57:41] language pair: English-Romanian
+[2023-07-14 11:57:43] model parameters: 76961152
+bleu score: 4.93|language acc:0.0|question mark acc:0.8984088127294981
+[2023-07-14 12:16:21] ====================
+[2023-07-14 13:37:00] COMMAND: main.py --model-name flan-t5-base --log-file ./results/flan-t5/thruthfullqa_en_ro.txt --dataset ./datasets/truthfullqa/en_ro.df --lang-pair en-ro
+[2023-07-14 13:37:00] Arguments: {'model_name': 'flan-t5-base', 'dataset': './datasets/truthfullqa/en_ro.df', 'log_file': './results/flan-t5/thruthfullqa_en_ro.txt', 'few_shot': False, 'lang_pair': 'en-ro'}
+[2023-07-14 13:37:00] start experiment...
+[2023-07-14 13:37:00] language pair: English-Romanian
+[2023-07-14 13:37:14] model parameters: 247577856
+bleu score: 19.15|language acc:0.0|question mark acc:0.9791921664626683
+[2023-07-14 13:50:30] ====================
+[2023-07-14 15:06:51] COMMAND: main.py --model-name flan-t5-large --log-file ./results/flan-t5/thruthfullqa_en_ro.txt --dataset ./datasets/truthfullqa/en_ro.df --lang-pair en-ro
+[2023-07-14 15:06:51] Arguments: {'model_name': 'flan-t5-large', 'dataset': './datasets/truthfullqa/en_ro.df', 'log_file': './results/flan-t5/thruthfullqa_en_ro.txt', 'few_shot': False, 'lang_pair': 'en-ro'}
+[2023-07-14 15:06:51] start experiment...
+[2023-07-14 15:06:51] language pair: English-Romanian
+[2023-07-14 15:07:00] model parameters: 783150080
+bleu score: 20.49|language acc:0.0|question mark acc:0.9620563035495716
+[2023-07-14 15:37:34] ====================
+[2023-07-15 13:28:10] COMMAND: main.py --model-name flan-t5-xl --log-file ./results/flan-t5/thruthfullqa_en_ro.txt --dataset ./datasets/truthfullqa/en_ro.df --lang-pair en-ro
+[2023-07-15 13:28:10] Arguments: {'model_name': 'flan-t5-xl', 'dataset': './datasets/truthfullqa/en_ro.df', 'log_file': './results/flan-t5/thruthfullqa_en_ro.txt', 'few_shot': False, 'lang_pair': 'en-ro'}
+[2023-07-15 13:28:10] start experiment...
+[2023-07-15 13:28:10] language pair: English-Romanian
+[2023-07-15 13:28:54] model parameters: 2849757184
+bleu score: 27.44|language acc:0.0|question mark acc:0.9608323133414932
+

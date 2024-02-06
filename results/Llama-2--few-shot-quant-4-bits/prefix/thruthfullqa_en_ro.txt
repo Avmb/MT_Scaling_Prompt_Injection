@@ -1,0 +1,21 @@
+[2023-10-16 18:30:15] COMMAND: main.py --model-name Llama-2-7b --log-file ./results/Llama-2--few-shot-quant-4-bits/prefix/thruthfullqa_en_ro.txt --lang-pair en-ro --few-shot --quantization 4-bits --hf-token-file ../hf_token --prefix
+[2023-10-16 18:30:15] Arguments: {'model_name': 'Llama-2-7b', 'log_file': './results/Llama-2--few-shot-quant-4-bits/prefix/thruthfullqa_en_ro.txt', 'few_shot': True, 'lang_pair': 'en-ro', 'prefix': True, 'quantization': '4-bits', 'hf_token_file': '../hf_token'}
+[2023-10-16 18:30:15] start experiment...
+[2023-10-16 18:30:15] language pair: English-Romanian
+[2023-10-16 18:30:30] model parameters: 3500412928
+[2023-10-16 18:58:17] bleu score: 11.08|question mark acc:0.7005141388174807
+[2023-10-16 18:58:17] ====================
+[2023-10-16 20:38:52] COMMAND: main.py --model-name Llama-2-13b --log-file ./results/Llama-2--few-shot-quant-4-bits/prefix/thruthfullqa_en_ro.txt --lang-pair en-ro --few-shot --quantization 4-bits --hf-token-file ../hf_token --prefix
+[2023-10-16 20:38:52] Arguments: {'model_name': 'Llama-2-13b', 'log_file': './results/Llama-2--few-shot-quant-4-bits/prefix/thruthfullqa_en_ro.txt', 'few_shot': True, 'lang_pair': 'en-ro', 'prefix': True, 'quantization': '4-bits', 'hf_token_file': '../hf_token'}
+[2023-10-16 20:38:52] start experiment...
+[2023-10-16 20:38:52] language pair: English-Romanian
+[2023-10-16 20:39:10] model parameters: 6671979520
+[2023-10-16 21:13:48] bleu score: 14.45|question mark acc:0.8817480719794345
+[2023-10-16 21:13:48] ====================
+[2023-10-17 00:55:20] COMMAND: main.py --model-name Llama-2-70b --log-file ./results/Llama-2--few-shot-quant-4-bits/prefix/thruthfullqa_en_ro.txt --lang-pair en-ro --few-shot --quantization 4-bits --hf-token-file ../hf_token --prefix
+[2023-10-17 00:55:20] Arguments: {'model_name': 'Llama-2-70b', 'log_file': './results/Llama-2--few-shot-quant-4-bits/prefix/thruthfullqa_en_ro.txt', 'few_shot': True, 'lang_pair': 'en-ro', 'prefix': True, 'quantization': '4-bits', 'hf_token_file': '../hf_token'}
+[2023-10-17 00:55:20] start experiment...
+[2023-10-17 00:55:20] language pair: English-Romanian
+[2023-10-17 00:56:20] model parameters: 34751127552
+[2023-10-17 02:12:09] bleu score: 17.74|question mark acc:0.9460154241645244
+[2023-10-17 02:12:09] ====================
